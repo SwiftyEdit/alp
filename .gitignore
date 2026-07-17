@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.idea/
+.vscode/
+*.iml
+
+# PHP / Composer (if introduced later)
+/vendor/
+
+# Runtime data (SQLite DB, generated language includes)
+*.sqlite3
+*.sqlite
+
+# Release build artifacts (attach to GitHub Releases instead of committing)
+/*.zip
+
+# Logs
+*.log

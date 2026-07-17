@@ -1,0 +1,15 @@
+{
+  "nav_overview": "Übersicht",
+  "nav_settings": "Einstellungen",
+
+  "label_shorthand": "Shorthand",
+  "label_language": "Sprache",
+  "label_text": "Text",
+  "label_modus": "Modus",
+  "label_modus_overwrite": "Überschreiben",
+  "label_modus_extend": "Erweitern",
+  "modus_overwrite_tip": "Eventuell vorhandene Einträge aus der System-Sprachdatei werden überschrieben.",
+  "modus_extend_tip": "Vorhandene Einträge aus der System-Sprachdatei bleiben bestehen.",
+  "no_alp_files": "Es sind keine Sprachdateien zum Löschen vorhanden.",
+  "delete_lang_files": "Beim Modus <strong>Überschreiben</strong> werden Sprachdateien im Verzeichnis /data/includes/ abgelegt. Hier können diese Dateien gelöscht werden."
+}

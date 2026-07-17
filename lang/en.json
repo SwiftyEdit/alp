@@ -1,0 +1,15 @@
+{
+  "nav_overview": "Overview",
+  "nav_settings": "Settings",
+
+  "label_shorthand": "Shorthand",
+  "label_language": "Language",
+  "label_text": "Text",
+  "label_modus": "Mode",
+  "label_modus_overwrite": "Overwrite",
+  "label_modus_extend": "Extend",
+  "modus_overwrite_tip": "The default language file will be overwritten.",
+  "modus_extend_tip": "The default language file will be extended.",
+  "no_alp_files": "There are no language files to delete.",
+  "delete_lang_files": "The <strong>Override</strong> mode creates language files in the directory /data/includes/. These files can be deleted here."
+}

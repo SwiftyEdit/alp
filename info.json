@@ -1,16 +1,22 @@
 {
   "addon": {
+    "id": "alp",
     "name": "alp",
     "type": "plugin",
-    "version": "1.1",
-    "build": 15,
+    "version": "1.2",
+    "build": 16,
     "author": "SwiftyEdit Developer Team",
     "description": "Advanced Language Pack - Expand or overwrite contents from language packs",
     "database": "alp.sqlite3",
-    "update_url": "https://swiftyedit.net/plugins/alp/info.json"
+    "update_url": "https://raw.githubusercontent.com/SwiftyEdit/alp/main/info.json"
   },
   "versions": [
     {
+      "version": "1.2",
+      "build": 16,
+      "requires_build": "25-148",
+      "download_url": "https://github.com/SwiftyEdit/alp/releases/download/v1.2/alp-1.2.zip"
+    },{
       "version": "1.1",
       "build": 15,
       "requires_build": "25-148",

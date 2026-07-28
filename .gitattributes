@@ -1,0 +1,6 @@
+# Dev-only file with no purpose once installed. PHP's pathinfo() reports
+# its "extension" as "gitignore", which core's se_install_plugin() file-type
+# whitelist rejects, aborting the whole install with "ZIP contains invalid
+# file type" - keep it out of release archives built with `git archive`.
+.gitignore export-ignore
+.gitattributes export-ignore

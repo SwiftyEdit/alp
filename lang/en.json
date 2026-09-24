@@ -1,6 +1,7 @@
 {
   "nav_overview": "Overview",
   "nav_settings": "Settings",
+  "msg_not_activated": "This plugin is not activated. The overview stays empty until alp is activated under <a href=\"/admin/addons/\">Addons</a>.",
 
   "label_shorthand": "Shorthand",
   "label_language": "Language",

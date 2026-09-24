@@ -13,6 +13,12 @@ use Medoo\Medoo;
 require SE_ROOT.'plugins/alp/install/installer.php';
 require __DIR__.'/header.php';
 
+// the overview loads everything via /admin-xhr/, which the core only routes
+// to activated plugins - without this hint the page just stays empty
+if(function_exists('se_is_plugin_activated') && !se_is_plugin_activated('alp')) {
+    echo '<div class="alert alert-warning">'.$addon_lang['msg_not_activated'].'</div>';
+    return;
+}
 
 
 echo '<div class="row">';

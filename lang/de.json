@@ -1,6 +1,7 @@
 {
   "nav_overview": "Übersicht",
   "nav_settings": "Einstellungen",
+  "msg_not_activated": "Das Plugin ist nicht aktiviert. Die Übersicht bleibt leer, bis alp unter <a href=\"/admin/addons/\">Addons</a> aktiviert wurde.",
 
   "label_shorthand": "Shorthand",
   "label_language": "Sprache",
